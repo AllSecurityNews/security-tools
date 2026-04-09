@@ -15,6 +15,8 @@ Command-line utilities you can use today. Python 3 and bash, no other dependenci
 | [Security Header Audit](tools/header_audit.sh) | Check HTTP security headers for any domain | `./tools/header_audit.sh example.com` |
 | [Log Analyzer](tools/log_analyzer.py) | Flag brute force, SQLi, scanners, and traversal in web server logs | `python tools/log_analyzer.py access.log` |
 | [CVE Lookup](tools/cve_lookup.py) | Query NVD for CVE details, CVSS scores, and affected products | `python tools/cve_lookup.py CVE-2024-1234` |
+| [SSL/TLS Checker](tools/ssl_checker.py) | Check cert expiry, key strength, protocol, and misconfigs | `python tools/ssl_checker.py example.com` |
+| [DNS Enumeration](tools/dns_enum.py) | Enumerate DNS records and check SPF/DKIM/DMARC | `python tools/dns_enum.py example.com` |
 
 ### IOC Extractor
 
@@ -70,6 +72,10 @@ Practical how-to guides written for people who need to get things done.
 | [Kubernetes Security Hardening](guides/kubernetes-security-hardening.md) | RBAC, Pod Security Standards, network policies, secrets, image security, audit logging |
 | [Securing LLM Applications](guides/securing-llm-applications.md) | Prompt injection, RAG security, tool use controls, data leakage prevention, deployment checklist |
 | [Cloud IAM Least Privilege](guides/cloud-iam-least-privilege.md) | AWS/Azure/GCP IAM auditing, finding overprivileged identities, managed identities, key rotation |
+| [Supply Chain Security](guides/supply-chain-security.md) | SBOMs, SLSA provenance, dependency scanning, artifact signing, lock file strategies |
+| [Ransomware Resilience](guides/ransomware-resilience.md) | Immutable backups, network segmentation, ESXi hardening, recovery playbooks |
+| [Securing CI/CD Pipelines](guides/securing-cicd-pipelines.md) | GitHub Actions hardening, OIDC, secrets management, artifact signing, common attacks |
+| [API Security Testing](guides/api-security-testing.md) | BOLA testing, auth bypass, rate limits, SSRF, API discovery, OWASP API Top 10 |
 
 ## Resources
 
