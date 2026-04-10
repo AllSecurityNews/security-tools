@@ -76,6 +76,7 @@ Practical how-to guides written for people who need to get things done.
 | [Ransomware Resilience](guides/ransomware-resilience.md) | Immutable backups, network segmentation, ESXi hardening, recovery playbooks |
 | [Securing CI/CD Pipelines](guides/securing-cicd-pipelines.md) | GitHub Actions hardening, OIDC, secrets management, artifact signing, common attacks |
 | [API Security Testing](guides/api-security-testing.md) | BOLA testing, auth bypass, rate limits, SSRF, API discovery, OWASP API Top 10 |
+| [Detection Engineering](guides/detection-engineering.md) | Writing Sigma rules, Atomic Red Team testing, detection-as-code, ATT&CK coverage |
 
 ## Resources
 
@@ -97,6 +98,8 @@ Browser-based security tools on our site (no installation needed):
 - [User Agent Parser](https://allsecuritynews.com/hub/tools/useragent) - Identify browsers, bots, devices
 - [Security Headers](https://allsecuritynews.com/hub/tools/headers) - Check HTTP security headers
 - [Text Diff](https://allsecuritynews.com/hub/tools/diff) - Compare configs and baselines
+
+Browse the [Security Glossary](https://allsecuritynews.com/hub/glossary) with 150+ searchable terms.
 
 Visit [allsecuritynews.com/hub](https://allsecuritynews.com/hub) for the full Security Hub.
 
